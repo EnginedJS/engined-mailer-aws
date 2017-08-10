@@ -45,7 +45,7 @@ main();
 
 ## Send email with local mailer backend
 
-The example to show how to save file with local mailer backend:
+The example to show how to send email with local mailer backend:
 
 ```javascript
 

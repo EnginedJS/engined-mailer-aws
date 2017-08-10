@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/EnginedJS/engined-mailer-aws#readme",
   "dependencies": {
-    "engined": "0.0.2",
+    "engined": ">=0.0.2",
     "nodemailer": "^4.0.1",
     "nodemailer-ses-transport": "^1.5.1"
   }
