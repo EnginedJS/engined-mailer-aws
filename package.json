@@ -1,0 +1,36 @@
+{
+  "name": "engined-mailer-aws",
+  "version": "0.0.1",
+  "description": "Local mailer use aws backend for engined.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnginedJS/engined-mailer-aws.git"
+  },
+  "author": "Leon Lin <leonlin14@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=7.4"
+  },
+  "keywords": [
+    "service",
+    "engined",
+    "email",
+    "aws"
+  ],
+  "bugs": {
+    "url": "https://github.com/EnginedJS/engined-mailer-aws/issues"
+  },
+  "homepage": "https://github.com/EnginedJS/engined-mailer-aws#readme",
+  "dependencies": {
+    "engined": "0.0.2",
+    "nodemailer": "^4.0.1",
+    "nodemailer-ses-transport": "^1.5.1"
+  }
+}
