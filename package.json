@@ -1,6 +1,6 @@
 {
   "name": "engined-mailer-aws",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Local mailer use aws backend for engined.",
   "main": "index.js",
   "directories": {
