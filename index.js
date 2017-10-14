@@ -23,6 +23,8 @@ module.exports = (opts = {}) => class extends Service {
 	}
 
 	async stop() {
+		
+		let mailerManager = this.getContext().get('Mailer');
 
 		mailerManager.unregister(this.agentName);
 	}
